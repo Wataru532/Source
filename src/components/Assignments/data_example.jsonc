@@ -1,0 +1,21 @@
+{
+  "uniform":[20250113], //YYYMMDD
+  "assignments":[ 
+      {
+        "subject":"che", //math,ja,en,che,phy,bio,geo,his,pub,homE,info,pe,art,none
+        "class":"g2", //全校→a 学年→g1,g2,g3 類型→n1,n2,n3,t1,t2,t3 クラス→11~36
+        "title":"重問テスト", 
+        "duedate":"2025-01-07", //YYYY-MM-DD
+        "content":"化学の重要問題集テストのために頑張って勉強しましょう", //投稿者を表示できるようにする
+        "author":"松井渉"
+      },
+      {
+        "subject":"phy", 
+        "class":"g2", 
+        "title":"物理課題", 
+        "duedate":"2025-01-10", 
+        "content":"物理課題は順調ですか？",
+        "author":"松井渉"
+      }
+  ]
+}
