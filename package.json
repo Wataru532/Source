@@ -1,0 +1,58 @@
+{
+  "homepage": "https://scheduler532.github.io/Schedular/",
+  "name": "Scheduler",
+  "version": "3.0.2",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@floating-ui/core": "^1.6.8",
+    "@floating-ui/dom": "^1.6.12",
+    "@floating-ui/react": "^0.27.1",
+    "@floating-ui/react-dom": "^2.1.2",
+    "@mui/icons-material": "^6.2.0",
+    "@mui/material": "^6.2.0",
+    "buffer": "npm:Buffer@^0.0.0",
+    "Buffer": "^0.0.0",
+    "cra-template": "1.2.0",
+    "firebase": "^11.1.0",
+    "react": "^19.0.0",
+    "react-burger-menu": "^3.1.0",
+    "react-color": "^2.19.3",
+    "react-device-detect": "^2.2.3",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.0.2",
+    "react-scripts": "5.0.1",
+    "react-select": "^5.9.0",
+    "react-spinners": "^0.15.0",
+    "react-swipeable": "^7.0.2",
+    "sweetalert2": "^11.15.0",
+    "web-vitals": "^4.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build -f"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
