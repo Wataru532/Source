@@ -1,0 +1,48 @@
+{
+  "homepage": "https://wataru532.github.io/Scheduler_data",
+  "name": "scheduler_data_react",
+  "version": "1.6.0",
+  "private": true,
+  "dependencies": {
+    "chardet": "^2.0.0",
+    "cra-template": "1.2.0",
+    "firebase": "^11.3.0",
+    "firestore": "^1.1.6",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.1.5",
+    "react-scripts": "5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "rm": "rm -rf docs",
+    "mv": "mv build docs",
+    "git": "git add . && git commit && git push origin master",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build -f"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "web-vitals": "^4.2.4"
+  }
+}
